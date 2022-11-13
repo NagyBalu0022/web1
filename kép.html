@@ -10,5 +10,39 @@
     <h2>Smál Balázs</h2>
     <img src="https://raw.githubusercontent.com/NagyBalu0022/k-p/main/BeFunky-collage.jpg">
     
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }
+      <ul>
+        <li><a class="active" href="#fő oldal">Home</a></li>
+        <li><a href="#keplink">News</a></li>
+        <li><a href="#lista">Contact</a></li>
+        <li><a href="#orarend">About</a></li>
+      </ul>
+
 </body>
 </html>
